@@ -1,0 +1,82 @@
+/*
+
+// NO SIRVE
+
+*/
+/*
+¿Selector?
+Body
+¿qué cambia?
+Background Color / color de fondo 
+¿Cómo?
+Gris
+
+*/
+body {
+  background-image: url("./imagen.jpg");
+  /*
+    Mover por la X en positivo va a mover hacia la derecha.
+    Mover por la X en negativo va a mover hacia la izquierda.
+  
+    Mover por la Y en positivo va a mover hacia abajo.
+    Mover por la Y en negativo va a mover hacia arriba.
+    */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: rgb(43, 0, 255);
+}
+
+p {
+  color: red;
+}
+
+footer {
+  color: rgb(0, 255, 38);
+}
+
+#original {
+  background-color: white;
+  color: #000;
+}
+
+footer p {
+  color: blueviolet;
+}
+
+body footer p {
+  color: brown;
+}
+
+.texto-importante {
+  color: darkgreen;
+}
+
+/*
+rojo verde azul
+red green blue
+R   G   B
+FF  FF  FF   -> BLANCO
+255 255 255
+
+00  00  00   -> NEGRO
+
+16                10,11,12,13,14,15
+1,2,3,4,5,6,7,8,9, A, B, C, D, E, F
+
+16
+11
+
+17
+12
+
+25
+1A
+
+30
+1F
+
+21
+
+255
+FF
+*/
