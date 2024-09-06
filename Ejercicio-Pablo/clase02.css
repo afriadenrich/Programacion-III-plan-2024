@@ -1,0 +1,58 @@
+html {
+  background-color: whitesmoke;
+  color: darkblue;
+}
+
+#logo {
+}
+
+#seccion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  /* alínea verticalmente*/
+  /*justify-content: center;  alínea horizontal*/
+}
+
+#img_der {
+  margin-left: 60%;
+}
+
+.recuadro {
+  border: 5px solid cyan;
+  padding: 5%;
+  margin: 10%;
+  width: 100%;
+}
+
+span {
+  align-content: center;
+  justify-content: center;
+}
+
+.repositorios {
+  display: flex;
+  flex-direction: row;
+}
+
+#boton {
+  width: 150px;
+  height: 40px;
+}
+/*
+también se puede usar
+#id clase
+por ejemplo
+#img_der p 
+
+si dentro hay un p
+*/
+
+/* para trabajar con espacios 
+margin margenes
+padding relleno
+
+
+*/

@@ -1,0 +1,43 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 200;
+}
+
+p:nth-child(5) {
+  color: #8a2be2;
+}
+
+p:nth-child(3n) {
+  /* cada 3 */
+  color: #33d31a;
+}
+
+h2 {
+  text-shadow: none;
+}
+
+h2:hover {
+  text-shadow: 1px 1px 5px #000;
+}
+
+p {
+  text-align: inherit;
+  text-decoration: underline wavy #000 1px;
+}
+
+form div {
+  margin: 20px 0px;
+}
+
+input:focus {
+  box-shadow: 10px 10px 10px black;
+}
+
+input[type="email"] {
+  width: 500px;
+}
