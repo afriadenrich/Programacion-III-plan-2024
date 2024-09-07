@@ -1,0 +1,35 @@
+img {
+  height: 350px;
+  aspect-ratio: 4 / 3;
+}
+
+main {
+  display: flex;
+}
+
+p {
+  margin: 10px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-color: aqua;
+  }
+}
+
+/* Cuando tengo menos de 785px, mover el texto hacia abajo */
+/* max-width -> siempre que sea menor a ese número máximo, va a ejecutar.*/
+/* min-width -> siempre que sea mayor a ese número mínimo, va a ejecutar.*/
+
+@media (max-width: 785px) {
+  main {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
