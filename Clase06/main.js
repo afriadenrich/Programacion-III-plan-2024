@@ -12,3 +12,27 @@ console.log(usuario);
 
 usuario.contraseña = "Otra";
 console.log(usuario);
+
+const mapa = new Map();
+mapa.set("nombre", "F");
+mapa.set("apellido", "G");
+
+mapa.forEach((value, key) => {
+  console.log(key, " - ", value);
+});
+
+// colección JS con Clave nombrada
+mapa.set("nombre", "Fernando");
+mapa.get("nombre");
+mapa.forEach((valor) => {
+  console.log(valor);
+});
+
+const objeto = {
+  clave: "valor",
+  // ...
+};
+
+// Array -> Claves son números
+// Map -> Claves son strings
+// Set -> Valores únicos.

@@ -48,7 +48,7 @@ const esPalindromo = (str) => str === str.split("").reverse().join("");
 console.log(esPalindromo("neuquen")); // Salida: true
 
 // 3- Remover duplicados en array
-
+/*
 function removerDuplicados(original) {
   const resultado = [];
 
@@ -64,7 +64,13 @@ function removerDuplicados(original) {
 
   return resultado;
 }
+*/
 
+function removerDuplicados(original) {
+  const set = new Set(original);
+
+  return [...set];
+}
 console.log(removerDuplicados([1, 2, 2, 3, 4, 4, 5])); // Output: [1, 2, 3, 4, 5]
 
 // 4. Sumar dígitos a partir de un string
