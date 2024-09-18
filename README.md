@@ -14,8 +14,9 @@
     - Flexbox
     - Margin, padding, border 
 
-Documentación CSS
-[text](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics)
+## Documentación CSS
+
+- [Punto de partida](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics)
 
 
 ## Clase 03
@@ -40,3 +41,27 @@ Documentación CSS
     - Métodos de strings y arrays
     - Callbacks
 
+### Documentación importante
+
+- [Palabras clave y otras expresiones](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators)
+- [Funciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions)
+- [Objetos](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_objects)
+- [Arrays](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Clases](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes)
+
+
+## Clase 06
+
+### Javascript
+    - Map
+    - Set
+    - Spread Operator
+    - POO
+    - Separación de archivos por módulos
+
+### Documentación importante:
+
+- [Clases](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes)
+- [Arrow Functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Spread Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Colecciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Keyed_collections)
