@@ -11,7 +11,7 @@ const loginBtn = document.getElementById("login");
 const registroBtn = document.getElementById("registro");
 
 loginBtn.onclick = login;
-registroBtn.addEventListener("click", registro);
+registroBtn.addEventListener("mousedown", registro);
 
 let mensajeError = "";
 let nombre = "";
