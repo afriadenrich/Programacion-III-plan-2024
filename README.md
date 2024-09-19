@@ -65,3 +65,22 @@
 - [Arrow Functions](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Spread Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [Colecciones](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Keyed_collections)
+
+## Clase 07
+
+### Javascript - DOM
+    - localstorage
+    - DOM
+    - getElementById
+    - onclick
+    - addEventListener
+    - innerHTML vs innerText
+
+### Documentación importante:
+
+- [localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+- [DOM](https://developer.mozilla.org/es/docs/Glossary/DOM)
+- [getElementById](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById)
+- [onclick](https://www.w3schools.com/jsref/event_onclick.asp)
+- [innerText](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
+- [innerHTML vs innerText](https://www.freecodecamp.org/news/innerhtml-vs-innertext-vs-textcontent/)
