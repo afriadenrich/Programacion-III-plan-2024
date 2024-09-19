@@ -1,24 +1,24 @@
 export default class Usuario {
-  #_nombre = String;
-  #_mail = String;
-  #_password = String;
+  nombre;
+  mail;
+  password;
 
   constructor(nombre, mail, password) {
-    this.#_nombre = nombre;
-    this.#_mail = mail;
-    this.#_password = password;
+    this.nombre = nombre;
+    this.mail = mail;
+    this.password = password;
   }
 
   get Nombre() {
-    return this.#_nombre;
+    return this.nombre;
   }
 
   get Mail() {
-    return this.#_mail;
+    return this.mail;
   }
 
   get Password() {
-    return this.#_password;
+    return this.password;
   }
 
   static stringify(usuario) {
@@ -31,11 +31,11 @@ export default class Usuario {
 
   Registro() {
     /*
-        let usuario = {
-          nombre: nombre,
-          mail: mail,
-          password: password,
-        };*/
+          let usuario = {
+            nombre: nombre,
+            mail: mail,
+            password: password,
+          };*/
 
     let usuario = this;
 
@@ -45,22 +45,23 @@ export default class Usuario {
     let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
 
     // Forma alargada
-    if (JSON.parse(localStorage.getItem("usuarios")) === undefined) {
-      usuarios = [];
-    } else {
-      usuarios = JSON.parse(localStorage.getItem("usuarios"));
-    }
-
+    /*
+      if (JSON.parse(localStorage.getItem("usuarios")) === undefined) {
+        usuarios = [];
+      } else {
+        usuarios = JSON.parse(localStorage.getItem("usuarios"));
+      }
+  */
     // let usuarios = [];
     // Forma try catch
     /*
-        try {
-            usuarios = JSON.parse(localStorage.getItem("usuarios"));
-        } catch(error){
-            console.log(error);
-            usuarios = [];
-        }
-    */
+          try {
+              usuarios = JSON.parse(localStorage.getItem("usuarios"));
+          } catch(error){
+              console.log(error);
+              usuarios = [];
+          }
+      */
     usuarios.push(usuario);
 
     localStorage.setItem("usuarios", JSON.stringify(usuarios));
@@ -77,12 +78,11 @@ export default class Usuario {
     let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
 
     let verificacionEmail = usuarios.find(
-      (usuario) => usuario._mail === this.#_mail
+      (usuario) => usuario.mail === this.mail
     );
 
     if (verificacionEmail) {
-      let verificacionPassword =
-        verificacionEmail._password === this.#_password;
+      let verificacionPassword = verificacionEmail.password === this.password;
 
       if (verificacionPassword) {
         respuesta = "Verificado";

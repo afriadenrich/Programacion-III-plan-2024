@@ -1,11 +1,11 @@
-#id {
+.titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.clase {
+.centrado {
+  text-align: center;
 }
 
-nav {
-}
-
-header nav div {
+.error {
+  color: #ff0000;
 }
