@@ -67,3 +67,19 @@ function registro() {
   console.log(mensajeError);
   errorEl.innerText = mensajeError;
 }
+
+/*
+  Repaso JSON
+
+// De objeto a cadena
+const laCadena = JSON.stringify(objeto);
+
+// localstorage -> guarda cadenas
+localStorage.setItem("usuarios", laCadena);
+
+localStorage.getItem("usuarios");
+
+// De cadena a objeto
+const objetoDeVuelta = JSON.parse(laCadena);
+
+*/

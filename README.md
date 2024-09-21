@@ -84,3 +84,22 @@
 - [onclick](https://www.w3schools.com/jsref/event_onclick.asp)
 - [innerText](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
 - [innerHTML vs innerText](https://www.freecodecamp.org/news/innerhtml-vs-innertext-vs-textcontent/)
+
+## Clase 08
+
+### Bootstrap
+    - Bootstrap
+    - Grid con bootstrap
+    - Flex con bootstrap
+    - Container
+    - Responsive
+    - Temas (claro / oscuro)
+
+### Documentación importante
+- [Descargar bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
+- [Containers](https://getbootstrap.com/docs/5.3/layout/containers/)
+- [Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
+- [Flex](https://getbootstrap.com/docs/5.3/utilities/flex/)
+- [Temas](https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode)
+- [Difenrecia align items vs align content](https://es.stackoverflow.com/questions/231406/flexbox-diferencia-align-items-y-align-content)
+- [Operador ternario JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
