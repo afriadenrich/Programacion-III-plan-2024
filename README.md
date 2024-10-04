@@ -103,3 +103,5 @@
 - [Temas](https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode)
 - [Difenrecia align items vs align content](https://es.stackoverflow.com/questions/231406/flexbox-diferencia-align-items-y-align-content)
 - [Operador ternario JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
+
+# Clase 12 

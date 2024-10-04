@@ -27,15 +27,8 @@ traerDatos();
 
 // https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2024-10-01
 
-/*
-https://www.google.com/search?q=utn
+let params = new URLSearchParams(document.location.search);
+let nombre = params.get("nombre");
+let edad = parseInt(params.get("edad"), 10);
 
-
-&sca_esv=92c44415b946008c&source=hp&ei=Y2oAZ-0a0NLWxA-9sJvQBA&iflsig=AL9hbdgAAAAAZwB4c3JHyON35ZPtvXpLzamZEgIw-J7N&ved=0ahUKEwit2NS64fWIAxVQqZUCHT3YBkoQ4dUDCBY&uact=5&oq=utn&gs_lp=Egdnd3Mtd2l6IgN1dG4yCxAuGIAEGLEDGIMBMhQQLhiABBixAxiDARjHARiOBRivATIREC4YgAQYsQMYgwEYxwEYrwEyCBAAGIAEGLEDMgsQLhiABBixAxiDATILEC4YgAQYxwEYrwEyDhAuGIAEGMcBGI4FGK8BMggQABiABBixAzILEC4YgAQYsQMYgwEyCBAAGIAEGLEDSOwFUABYhgFwAHgAkAEAmAFWoAHzAaoBATO4AQPIAQD4AQGYAgOgAoACwgIFEC4YgATCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGMcBGK8BwgILEAAYgAQYsQMYgwHCAhEQLhiABBixAxjRAxiDARjHAcICBRAAGIAEmAMAkgcBM6AHyD0&sclient=gws-wiz
-
-
-
-
-
-
-*/
+console.log(nombre, edad);
