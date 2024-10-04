@@ -27,6 +27,13 @@ traerDatos();
 
 // https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2024-10-01
 
+/*
+https://www.google.com/search?q=utn
+
+*/
+
+console.log("lo que sea");
+
 let params = new URLSearchParams(document.location.search);
 let nombre = params.get("nombre");
 let edad = parseInt(params.get("edad"), 10);
