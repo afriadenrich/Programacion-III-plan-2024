@@ -32,8 +32,6 @@ https://www.google.com/search?q=utn
 
 */
 
-console.log("lo que sea");
-
 let params = new URLSearchParams(document.location.search);
 let nombre = params.get("nombre");
 let edad = parseInt(params.get("edad"), 10);
