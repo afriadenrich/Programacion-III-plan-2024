@@ -1,0 +1,14 @@
+Frontend 
+-> 
+
+API -> application programming interface
+
+-> Base de datos -> 
+
+API -> application programming interface
+
+->
+
+Frontend
+
+REST -> https://flippi.dev/programacion-php/clases/clase-08-api-rest.html
