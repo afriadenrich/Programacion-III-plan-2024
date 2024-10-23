@@ -1,14 +1,14 @@
 import Swal from "./node_modules/sweetalert2/dist/sweetalert2.esm.all.js";
+const { jsPDF } = window.jspdf;
 
 //const boton = document.getElementById("boton");
 
 boton.addEventListener("click", () => {
   Swal.fire("Hola mundo", "Cómo están?", "error");
 });
-
 const frutas = ["guindas", "manzanas", "bananas"];
 frutas.sort(); // ['bananas', 'guindas', 'manzanas']
-
+console.log(jsPDF);
 const puntos = [1, 10, 2, 21];
 puntos.sort((a, b) => {
   return a - b;
