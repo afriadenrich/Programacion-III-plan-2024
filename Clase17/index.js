@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 
+// Importante para variables de entorno
+//require("dotenv").config();
+process.loadEnvFile();
+
 // Importante para tomar datos del body!
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
@@ -16,6 +20,7 @@ app.get("/", (req, res) => {
   res.send("Ruta por defecto");
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log("App started!");
+  console.log(process.env.MYSQL_PASSWORD);
 });
