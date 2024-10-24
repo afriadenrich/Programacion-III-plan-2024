@@ -24,3 +24,7 @@ app.listen(process.env.PORT || 3000, () => {
   console.log("App started!");
   console.log(process.env.MYSQL_PASSWORD);
 });
+
+// https://expressjs.com/en/guide/error-handling.html
+// https://expressjs.com/en/guide/overriding-express-api.html
+// https://expressjs.com/en/4x/api.html

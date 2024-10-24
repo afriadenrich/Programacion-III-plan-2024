@@ -19,7 +19,17 @@ router.post("/", (req, res) => {
   auto.patente = patente;
   auto.precio = precio;
 
-  res.send(auto.toJson());
+  if (precio <= 0) {
+    res.status(400).send({ error: true });
+  } else {
+    res.status(200);
+    res.send(auto.toJson());
+  }
+});
+
+router.put("/", (req, res) => {
+  res.status(501);
+  throw new Error("Not implented");
 });
 
 module.exports = router;
