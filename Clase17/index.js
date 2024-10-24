@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.send("Ruta por defecto");
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("App started!");
   console.log(process.env.MYSQL_PASSWORD);
 });
