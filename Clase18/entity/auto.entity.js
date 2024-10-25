@@ -1,4 +1,5 @@
 const sequelize = require("../db/sequelize");
+const { DataTypes } = require("sequelize");
 
 const AutoSequelize = sequelize.define(
   "Auto",
@@ -17,8 +18,13 @@ const AutoSequelize = sequelize.define(
       allowNull: false, // NOT NULL
     },
     precio: {
-      type: DataTypes.NUMBER,
+      type: DataTypes.FLOAT,
       allowNull: false, // NOT NULL
+    },
+    eliminado: {
+      defaultValue: false,
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
     },
   },
   {
@@ -27,22 +33,4 @@ const AutoSequelize = sequelize.define(
   }
 );
 
-/*
-const User = sequelize.define(
-  "User",
-  {
-    // Model attributes are defined here
-    firstName: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    lastName: {
-      type: DataTypes.STRING,
-      // allowNull defaults to true
-    },
-  },
-  {
-    // Other model options go here
-  }
-);
-*/
+module.exports = AutoSequelize;

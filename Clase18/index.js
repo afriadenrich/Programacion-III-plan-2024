@@ -10,6 +10,8 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
 // Conexión DB
+const sequelize = require("./db/sequelize.js");
+const autoSequelize = require("./entity/auto.entity.js");
 
 // Inicio rutas
 
@@ -19,7 +21,10 @@ app.use("/autos", autosRoutes);
 // Fin rutas
 
 app.get("/", async (req, res) => {
+  // await autoSequelize.sync({ force: true });
   res.send("Ruta por defecto");
 });
 
-app.listen(process.env.PORT || 3000, () => {});
+app.listen(process.env.PORT || 3000, () => {
+  console.log("App started");
+});
