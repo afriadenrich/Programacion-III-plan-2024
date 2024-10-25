@@ -9,6 +9,8 @@ process.loadEnvFile();
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
+// Conexión DB
+
 // Inicio rutas
 
 const autosRoutes = require("./routes/auto.routes.js");
@@ -16,16 +18,8 @@ app.use("/autos", autosRoutes);
 
 // Fin rutas
 
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
   res.send("Ruta por defecto");
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log("App started!");
-  console.log(process.env.MYSQL_PASSWORD);
-});
-
-// https://expressjs.com/es/guide/routing.html
-// https://expressjs.com/en/guide/error-handling.html
-// https://expressjs.com/en/guide/overriding-express-api.html
-// https://expressjs.com/en/4x/api.html
+app.listen(process.env.PORT || 3000, () => {});
