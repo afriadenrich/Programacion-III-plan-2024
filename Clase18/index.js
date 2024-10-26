@@ -10,8 +10,8 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
 // Conexión DB
-const sequelize = require("./db/sequelize.js");
-const autoSequelize = require("./entity/auto.entity.js");
+// const sequelize = require("./db/sequelize.js");
+// const autoSequelize = require("./entity/auto.entity.js");
 
 // Inicio rutas
 
