@@ -104,4 +104,40 @@
 - [Difenrecia align items vs align content](https://es.stackoverflow.com/questions/231406/flexbox-diferencia-align-items-y-align-content)
 - [Operador ternario JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
 
-# Clase 12 
+## Clase 12 
+
+
+## Clase 13
+
+
+## Clase 14
+### Modelo parcial
+
+# Clase 15
+### Parcial
+
+# Clase 16
+## Node y Express
+
+
+# Clase 17
+## Ruteo y MVC
+
+# Clase 18
+## Conexión a DB con Sequelize
+
+### Importante - Deshabilitar CORS
+
+````
+    // Deshabilitar cors
+    app.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader(
+        "Access-Control-Allow-Methods",
+        "GET, POST, PUT, DELETE, PATCH, OPTIONS"
+    );
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+
+    next();
+    });
+```
