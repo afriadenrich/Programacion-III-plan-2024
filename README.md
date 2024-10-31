@@ -128,7 +128,7 @@
 
 ### Importante - Deshabilitar CORS
 
-````
+```
     // Deshabilitar cors
     app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -141,3 +141,17 @@
     next();
     });
 ```
+
+## Clase 19
+
+
+
+# Links a ordenar
+
+https://sequelize.org/docs/v6/core-concepts/assocs/
+
+
+https://restfulapi.net/http-methods/
+
+
+https://github.com/mde/ejs/wiki/Using-EJS-with-Express
