@@ -3,16 +3,16 @@
 ## Clase 01
 
 ### Introducción HTML
-    - Tags
-    - Atributos
+    - Tags.
+    - Atributos.
 
 ## Clase 02
 
 ### Introducción CSS
-    - Selectores
-    - Propiedades
-    - Flexbox
-    - Margin, padding, border 
+    - Selectores.
+    - Propiedades.
+    - Flexbox.
+    - Margin, padding, border.
 
 ## Documentación CSS
 
@@ -22,24 +22,23 @@
 ## Clase 03
 
 ### CSS
-    - Fuentes y atributos relacionados
-    - Pseudoclases: hover, focus, nth-child
-
+    - Fuentes y atributos relacionados.
+    - Pseudoclases: hover, focus, nth-child.
 
 ## Clase 04
 
 ### CSS
-    - Grid
-    - Media Queries
+    - Grid.
+    - Media Queries.
 
 ## Clase 05
 
 ### Javascript
-    - Variables
-    - Tipos de datos
-    - Objetos y Clases
-    - Métodos de strings y arrays
-    - Callbacks
+    - Variables.
+    - Tipos de datos.
+    - Objetos y Clases.
+    - Métodos de strings y arrays.
+    - Callbacks.
 
 ### Documentación importante
 
@@ -53,11 +52,11 @@
 ## Clase 06
 
 ### Javascript
-    - Map
-    - Set
-    - Spread Operator
-    - POO
-    - Separación de archivos por módulos
+    - Map.
+    - Set.
+    - Spread Operator.
+    - POO.
+    - Separación de archivos por módulos.
 
 ### Documentación importante:
 
@@ -69,12 +68,12 @@
 ## Clase 07
 
 ### Javascript - DOM
-    - localstorage
-    - DOM
-    - getElementById
-    - onclick
-    - addEventListener
-    - innerHTML vs innerText
+    - localstorage.
+    - DOM.
+    - getElementById.
+    - onclick.
+    - addEventListener.
+    - innerHTML vs innerText.
 
 ### Documentación importante:
 
@@ -88,12 +87,12 @@
 ## Clase 08
 
 ### Bootstrap
-    - Bootstrap
-    - Grid con bootstrap
-    - Flex con bootstrap
-    - Container
-    - Responsive
-    - Temas (claro / oscuro)
+    - Bootstrap.
+    - Grid con bootstrap.
+    - Flex con bootstrap.
+    - Container.
+    - Responsive.
+    - Temas (claro / oscuro).
 
 ### Documentación importante
 - [Descargar bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
@@ -104,27 +103,84 @@
 - [Difenrecia align items vs align content](https://es.stackoverflow.com/questions/231406/flexbox-diferencia-align-items-y-align-content)
 - [Operador ternario JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
 
-## Clase 12 
+## Clase 9
+### Repaso / Preparación del TP.
 
+## Clase 10
+### Asincronismos
+- async / await
+- Promesas, .then(), .catch(), .finally().
+- fetch().
+
+### Documentación importante
+- [async y await](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function)
+- [Uso de fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)
+- [fetch()](https://developer.mozilla.org/es/docs/Web/API/Window/fetch)
+- [Fetch para principiantes](https://www.freecodecamp.org/espanol/news/javascript-fetch-api-para-principiantes/)
+
+## Clase 11
+### Pérdida de clases
+
+## Clase 12 
+### Manejo de formularios
+- <form></form>.
+- Validaciones HTML.
+- Fetch con Query params.
+
+### Documentación importante
+- [Etiqueta form](https://developer.mozilla.org/es/docs/Web/HTML/Element/form)
+- [Validaciones de formularios](https://developer.mozilla.org/es/docs/Learn/Forms/Form_validation)
+- [fetch con query params](https://dev.to/sanjampreetsingh/simplifying-api-calls-with-urlsearchparams-and-fetch-8gn)
 
 ## Clase 13
+### Paquetes de node en frontend
+- Instalar Node.
+- Utilizar paquetes de Node.
 
-
-## Clase 14
 ### Modelo parcial
 
-# Clase 15
-### Parcial
+## Clase 14
+### Feriado
 
-# Clase 16
-## Node y Express
+## Clase 15
+### Primer Parcial
 
+## Clase 16
+### Node y Express
+- Instalar Node.
+- Utilizar paquetes de Node.
+- Instalar express.
+- Testing con Nodemon.
+- Crear las primeras rutas.
+- Pareseo del Body.
 
-# Clase 17
-## Ruteo y MVC
+### Documentación importante
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
+- [Instalar express](https://expressjs.com/en/starter/installing.html)
+- [Primeras rutas](https://expressjs.com/en/starter/hello-world.html)
+- [Ruteo básico](https://expressjs.com/en/starter/basic-routing.html)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
 
-# Clase 18
-## Conexión a DB con Sequelize
+## Clase 17
+### Ruteo y MVC
+- Distintas opciones de ruteo con Node.
+- Patrón MVC para estructuración de proyectos.
+
+### Documentación importante
+- [Ruteo avanzado](https://expressjs.com/en/guide/routing.html)
+- [Api reference](https://expressjs.com/en/5x/api.html)
+- [MVC](https://medium.com/@jonoyanguren/mvc-pattern-in-nodejs-and-express-old-but-gold-46c21bee365a)
+
+## Clase 18
+### Conexión a DB con ORM (Sequelize)
+
+### Documentación importante
+- [Sequelize](https://sequelize.org/)
+- [Instalar Sequelize](https://sequelize.org/docs/v6/getting-started/)
+- [Modelado de entidades](https://sequelize.org/docs/v6/core-concepts/model-basics/)
+- [Sentencias preparadas (Queries)](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/)
+
 
 ### Importante - Deshabilitar CORS
 
@@ -143,15 +199,36 @@
 ```
 
 ## Clase 19
+### Relaciones en la DB
+- [Relaciones con Sequelize](https://sequelize.org/docs/v6/core-concepts/assocs/)
+
+## Clase 19 
+### EJS
 
 
+## Clase 20 
+### Manejo y subida de archivos
+
+
+## Clase 21 
+### Middlewares
+
+
+## Clase 22 
+### Descarga de PDF / Excel
+
+
+## Fechas que nos quedan:
+- 27/11 - Segundo Parcial
+- 29/11 - Entrega del TP
+- 4/12 - Recuperatorio PP
+- 6/12 - Recuperatorio SP
+- 6/12 - Se puede reentregar el TP
+- 6/12 Última fecha para promocionar la materia
+- En la semana de finales del 9 al 14 de diciembre: Última semana para aprobar la maeteria y el TP.
 
 # Links a ordenar
 
-https://sequelize.org/docs/v6/core-concepts/assocs/
-
-
 https://restfulapi.net/http-methods/
-
 
 https://github.com/mde/ejs/wiki/Using-EJS-with-Express
