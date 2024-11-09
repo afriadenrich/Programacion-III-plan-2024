@@ -217,6 +217,12 @@
 ## Clase 22 
 ### Descarga de PDF / Excel
 
+https://www.npmjs.com/package/pdf-lib
+https://developer.mozilla.org/es/docs/Web/HTTP/MIME_types/Common_types
+https://docs.sheetjs.com/docs/demos/net/server/express/
+https://expressjs.com/en/5x/api.html#res.sendFile
+https://expressjs.com/en/5x/api.html#res.attachment
+https://www.npmjs.com/package/xlsx
 
 ## Fechas que nos quedan:
 - 27/11 - Segundo Parcial
