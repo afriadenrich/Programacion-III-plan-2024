@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "A",
+    "patente": "X",
+    "precio": 3,
+    "eliminado": false,
+    "creado_en": "2024-11-07T00:46:53.256Z",
+    "updatedAt": "2024-11-07T00:46:53.256Z",
+    "GarageId": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Ford Mustang",
+    "patente": "XAB 235",
+    "precio": 300000,
+    "eliminado": false,
+    "creado_en": "2024-11-07T00:50:29.462Z",
+    "updatedAt": "2024-11-07T00:50:29.462Z",
+    "GarageId": 1
+  }
+]
