@@ -155,6 +155,7 @@
 - Pareseo del Body.
 
 ### Documentación importante
+- [Métodos HTTP](https://restfulapi.net/http-methods/)
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 - [Instalar express](https://expressjs.com/en/starter/installing.html)
@@ -205,7 +206,10 @@
 ## Clase 19 
 ### EJS
 
-
+### Documentación importante
+- [EJS]()
+- [express generator]()
+- [EJS con express](https://github.com/mde/ejs/wiki/Using-EJS-with-Express)
 ## Clase 20 
 ### Manejo y subida de archivos
 
@@ -217,14 +221,16 @@
 ## Clase 22 
 ### Descarga de PDF / Excel
 
-https://www.npmjs.com/package/pdf-lib
-https://developer.mozilla.org/es/docs/Web/HTTP/MIME_types/Common_types
-https://docs.sheetjs.com/docs/demos/net/server/express/
-https://expressjs.com/en/5x/api.html#res.sendFile
-https://expressjs.com/en/5x/api.html#res.attachment
-https://www.npmjs.com/package/xlsx
 
-## Fechas que nos quedan:
+### Documentación importante
+- [Mime types](https://developer.mozilla.org/es/docs/Web/HTTP/MIME_types/Common_types)
+- [res.sendFile()](https://expressjs.com/en/5x/api.html#res.sendFile)
+- [res.attachment()](https://expressjs.com/en/5x/api.html#res.attachment)
+- [Paquete PDF](https://www.npmjs.com/package/pdf-lib)
+- [Paquete Excel](https://www.npmjs.com/package/xlsx)
+- [XLSX para express](https://docs.sheetjs.com/docs/demos/net/server/express/)
+
+# Fechas que nos quedan:
 - 27/11 - Segundo Parcial
 - 29/11 - Entrega del TP
 - 4/12 - Recuperatorio PP
@@ -235,6 +241,5 @@ https://www.npmjs.com/package/xlsx
 
 # Links a ordenar
 
-https://restfulapi.net/http-methods/
 
-https://github.com/mde/ejs/wiki/Using-EJS-with-Express
+
